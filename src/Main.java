@@ -11,7 +11,7 @@ public class Main {
     StringBuilder finalValue = new StringBuilder();
         for (int i = 0; i < number.length(); i++) {
             int digit = Character.getNumericValue(number.charAt(i));
-            int squere = digit *digit;
+            int squere = digit * digit;
             finalValue.append(squere);
 
         }
